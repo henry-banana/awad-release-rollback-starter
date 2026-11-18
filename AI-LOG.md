@@ -44,3 +44,25 @@ then invoked the same checker directly with
 `I15`. `T1` through `T3` and all six old-client tests also passed.
 
 By hand: Codex edited the files, built the images and ran the checks.
+
+## 2026-11-18: Add expiry in v2
+
+Tool: Codex (OpenAI).
+
+Asked for: Implement the expiry feature and reversible migration from the v2
+brief and prove compatibility with v1.
+
+Kept: The existing link fields, redirects and hit behavior for links without
+expiry. The app reads the flag from the shared database on each relevant
+request. No tool or old-client test was edited.
+
+Changed: Codex added a test for behavior the supplied checker does not cover
+directly: an expired link remains in detail and list results, a 410 does
+not increment hits, and a redirect after disabling the flag does increment
+them. The test also checks that a missing admin token gets 401.
+
+Rejected: No failing implementation variant was observed in this phase.
+
+By hand: Codex wrote the migration, feature and test, and ran the checks.
+`npm test` passed 7 tests, and `F1` through `F7` and `C1` through `C4`
+passed on the Docker images. Tag `v2` identifies the feature commit.

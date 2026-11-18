@@ -24,3 +24,19 @@ Baseline: tag `v1`.
 - Done when `T3`, `F1` through `F7`, and `C1` through `C4` pass. Check
   the redirect hit count and link representations with the flag off and on.
   Commit this part separately and tag it `v2`.
+
+## 3. Write the release and rollback commands
+
+Baseline: tag `v2`.
+
+- Implement `npm run release -- <tag>` and `npm run rollback` using the
+  Docker slot health and the router weights and counters. Keep `tools/`
+  and `test/app.test.js` unchanged.
+- Draft `RELEASE.md` before sending traffic. Include the five required
+  columns, the gate and its blind spots, and the difference between moving
+  traffic back and undoing the migration.
+- Done when a healthy release has at least two partial stages, starting at
+  25 percent or less for at least 10 seconds. The manual rollback must
+  confirm the new weights from `GET :8081/state`. A bad canary must trigger
+  the gate and lose all traffic without a manual rollback command. Verify
+  the behavior with `L3`, `L4`, and `L6` through `L9` during the drill.
