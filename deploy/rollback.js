@@ -1,4 +1,11 @@
-// npm run rollback
-// Not written yet. README.md, step 5, says what it has to do.
-console.error('deploy/rollback.js is not written yet: see README.md, step 5');
-process.exit(1);
+import { activeSlot, otherSlot, readState, requireHealthy, setTraffic } from './traffic.js';
+
+try {
+  const target = otherSlot(activeSlot(await readState()));
+  requireHealthy(target);
+  const weights = await setTraffic(target, 100);
+  console.log(`Rollback to ${target} confirmed by GET /state: ${weights}`);
+} catch (error) {
+  console.error(`Rollback failed: ${error.message}`);
+  process.exitCode = 1;
+}
