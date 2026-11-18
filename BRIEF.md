@@ -40,3 +40,16 @@ Baseline: tag `v2`.
   confirm the new weights from `GET :8081/state`. A bad canary must trigger
   the gate and lose all traffic without a manual rollback command. Verify
   the behavior with `L3`, `L4`, and `L6` through `L9` during the drill.
+
+## 4. Run the drill and prepare the review
+
+Baseline: the committed `RELEASE.md` and deploy scripts.
+
+- Run the documented sequence on staging with one continuous `npm run load`.
+  Keep `tools/` and `test/app.test.js` unchanged. Capture raw command output
+  and record any platform or tool issues in `NOTES.md`.
+- Done when `T1` through `T3`, `I1` through `I15`, `F1` through `F7`,
+  `C1` through `C4`, and `L0` through `L9` have been checked, and the
+  release log independently shows the automatic rollback and its weights.
+- Draft the six-row self-assessment with check IDs and log line ranges.
+  Leave the archive pending the student's review.
