@@ -1,0 +1,76 @@
+> npm run migrate:image -- v1
+npm notice run awad-release-rollback-starter@1.0.0 migrate:image
+npm notice run node deploy/migrate.js v1
+ Volume linkbox_data Creating 
+ Volume linkbox_data Creating 
+ Volume linkbox_data Created 
+ Volume linkbox_data Created 
+ Container linkbox-blue-run-3b3a44fd6f46 Creating 
+ Container linkbox-blue-run-3b3a44fd6f46 Created 
+applied  001_init
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Exit code: 0
+> npm run migrate:image -- v2
+npm notice run awad-release-rollback-starter@1.0.0 migrate:image
+npm notice run node deploy/migrate.js v2
+ Container linkbox-blue-run-718384b2a19d Creating 
+ Container linkbox-blue-run-718384b2a19d Created 
+applied  002_link_expiry
+(node:1) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Exit code: 0
+> npm run release -- v2
+npm notice run awad-release-rollback-starter@1.0.0 release
+npm notice run node deploy/release.js v2
+Starting linkbox:v2 in idle slot green; keeping blue up
+ Container linkbox-green-1 Creating 
+ Container linkbox-green-1 Created 
+ Container linkbox-green-1 Starting 
+ Container linkbox-green-1 Started 
+ Container linkbox-green-1 Waiting 
+ Container linkbox-green-1 Healthy 
+Docker reports green healthy
+Canary 20%: blue=80 green=20
+Canary 40%: blue=60 green=40
+Promoted linkbox:v2: blue=0 green=100
+Exit code: 0
+> PUT :8080/admin/flags/expiry {"enabled":true}
+{"enabled":true}
+> npm run rollback
+npm notice run awad-release-rollback-starter@1.0.0 rollback
+npm notice run node deploy/rollback.js
+Rollback to blue confirmed by GET /state: blue=100 green=0
+Exit code: 0
+> npm run release -- v2
+npm notice run awad-release-rollback-starter@1.0.0 release
+npm notice run node deploy/release.js v2
+Starting linkbox:v2 in idle slot green; keeping blue up
+ Container linkbox-green-1 Running 
+ Container linkbox-green-1 Waiting 
+ Container linkbox-green-1 Healthy 
+Docker reports green healthy
+Canary 20%: blue=80 green=20
+Canary 40%: blue=60 green=40
+Promoted linkbox:v2: blue=0 green=100
+Exit code: 0
+> npm run drill:build -- v2
+npm notice run awad-release-rollback-starter@1.0.0 drill:build
+npm notice run node tools/drills/build.js v2
+sha256:4bb342c4af5c044dd5c382e574125dac028ee522326f4d1026349e61c1ffa33f
+Exit code: 0
+> npm run release -- v3-bad
+npm notice run awad-release-rollback-starter@1.0.0 release
+npm notice run node deploy/release.js v3-bad
+Starting linkbox:v3-bad in idle slot blue; keeping green up
+ Container linkbox-blue-1 Recreate 
+ Container linkbox-blue-1 Recreated 
+ Container linkbox-blue-1 Starting 
+ Container linkbox-blue-1 Started 
+ Container linkbox-blue-1 Waiting 
+ Container linkbox-blue-1 Healthy 
+Docker reports blue healthy
+Canary 20%: blue=20 green=80
+Release stopped: gate stopped blue at 20%: 4 new errors in 18 requests (limit 2)
+Automatic rollback to green confirmed by GET /state: blue=0 green=100
+Exit code: 1

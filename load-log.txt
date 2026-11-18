@@ -1,0 +1,151 @@
+=== load start 2026-11-18T11:59:48.782Z target=http://127.0.0.1:8080 tools=4b56096c90ea819d weights=blue:100,green:0
+T+0001 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0002 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0003 total=38 fail=0 v[1.0.0@blue]=38/0 weights=blue:100,green:0
+T+0004 total=38 fail=0 v[1.0.0@blue]=38/0 weights=blue:100,green:0
+T+0005 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0006 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0007 total=37 fail=0 v[1.0.0@blue]=37/0 weights=blue:100,green:0
+T+0008 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0009 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0010 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0011 total=39 fail=0 v[1.0.0@blue]=39/0 weights=blue:100,green:0
+T+0012 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0013 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0014 total=36 fail=0 v[1.0.0@blue]=36/0 weights=blue:100,green:0
+T+0015 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0016 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0017 total=37 fail=0 v[1.0.0@blue]=37/0 weights=blue:100,green:0
+T+0018 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0019 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0020 total=39 fail=0 v[1.0.0@blue]=39/0 weights=blue:100,green:0
+T+0021 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0022 total=37 fail=0 v[1.0.0@blue]=37/0 weights=blue:100,green:0
+T+0023 total=39 fail=0 v[1.0.0@blue]=39/0 weights=blue:100,green:0
+T+0024 total=39 fail=0 v[1.0.0@blue]=39/0 weights=blue:100,green:0
+T+0025 total=38 fail=0 v[1.0.0@blue]=38/0 weights=blue:100,green:0
+T+25.8s MARK migration up from linkbox:v2
+T+0026 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0027 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0028 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0029 total=39 fail=0 v[1.0.0@blue]=39/0 weights=blue:100,green:0
+T+0030 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0031 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0032 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0033 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0034 total=38 fail=0 v[1.0.0@blue]=38/0 weights=blue:100,green:0
+T+0035 total=38 fail=0 v[1.0.0@blue]=38/0 weights=blue:100,green:0
+T+0036 total=38 fail=0 v[1.0.0@blue]=38/0 weights=blue:100,green:0
+T+0037 total=39 fail=0 v[1.0.0@blue]=39/0 weights=blue:100,green:0
+T+0038 total=39 fail=0 v[1.0.0@blue]=39/0 weights=blue:100,green:0
+T+38.5s WEIGHTS blue=80 green=20
+T+0039 total=40 fail=0 v[1.0.0@blue]=31/0 v[2.0.0@green]=9/0 weights=blue:80,green:20
+T+0040 total=40 fail=0 v[1.0.0@blue]=30/0 v[2.0.0@green]=10/0 weights=blue:80,green:20
+T+0041 total=40 fail=0 v[1.0.0@blue]=35/0 v[2.0.0@green]=5/0 weights=blue:80,green:20
+T+0042 total=40 fail=0 v[2.0.0@green]=8/0 v[1.0.0@blue]=32/0 weights=blue:80,green:20
+T+0043 total=40 fail=0 v[2.0.0@green]=9/0 v[1.0.0@blue]=31/0 weights=blue:80,green:20
+T+0044 total=40 fail=0 v[1.0.0@blue]=35/0 v[2.0.0@green]=5/0 weights=blue:80,green:20
+T+0045 total=33 fail=0 v[1.0.0@blue]=29/0 v[2.0.0@green]=4/0 weights=blue:80,green:20
+T+0046 total=40 fail=0 v[1.0.0@blue]=28/0 v[2.0.0@green]=12/0 weights=blue:80,green:20
+T+0047 total=40 fail=0 v[2.0.0@green]=9/0 v[1.0.0@blue]=31/0 weights=blue:80,green:20
+T+0048 total=40 fail=0 v[1.0.0@blue]=29/0 v[2.0.0@green]=11/0 weights=blue:80,green:20
+T+0049 total=39 fail=0 v[1.0.0@blue]=32/0 v[2.0.0@green]=7/0 weights=blue:80,green:20
+T+0050 total=40 fail=0 v[1.0.0@blue]=34/0 v[2.0.0@green]=6/0 weights=blue:80,green:20
+T+50.6s WEIGHTS blue=60 green=40
+T+0051 total=40 fail=0 v[1.0.0@blue]=24/0 v[2.0.0@green]=16/0 weights=blue:60,green:40
+T+0052 total=40 fail=0 v[2.0.0@green]=19/0 v[1.0.0@blue]=21/0 weights=blue:60,green:40
+T+0053 total=40 fail=0 v[1.0.0@blue]=29/0 v[2.0.0@green]=11/0 weights=blue:60,green:40
+T+0054 total=40 fail=0 v[1.0.0@blue]=27/0 v[2.0.0@green]=13/0 weights=blue:60,green:40
+T+0055 total=40 fail=0 v[1.0.0@blue]=27/0 v[2.0.0@green]=13/0 weights=blue:60,green:40
+T+0056 total=33 fail=0 v[1.0.0@blue]=18/0 v[2.0.0@green]=15/0 weights=blue:60,green:40
+T+0057 total=39 fail=0 v[2.0.0@green]=16/0 v[1.0.0@blue]=23/0 weights=blue:60,green:40
+T+0058 total=40 fail=0 v[1.0.0@blue]=23/0 v[2.0.0@green]=17/0 weights=blue:60,green:40
+T+0059 total=40 fail=0 v[1.0.0@blue]=24/0 v[2.0.0@green]=16/0 weights=blue:60,green:40
+T+0060 total=40 fail=0 v[2.0.0@green]=22/0 v[1.0.0@blue]=18/0 weights=blue:60,green:40
+T+0061 total=40 fail=0 v[2.0.0@green]=20/0 v[1.0.0@blue]=20/0 weights=blue:60,green:40
+T+0062 total=40 fail=0 v[1.0.0@blue]=27/0 v[2.0.0@green]=13/0 weights=blue:60,green:40
+T+62.8s WEIGHTS blue=0 green=100
+T+0063 total=40 fail=0 v[2.0.0@green]=36/0 v[1.0.0@blue]=4/0 weights=blue:0,green:100
+T+0064 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0065 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0066 total=34 fail=0 v[2.0.0@green]=34/0 weights=blue:0,green:100
+T+0067 total=38 fail=0 v[2.0.0@green]=38/0 weights=blue:0,green:100
+T+0068 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0070 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0071 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0072 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0073 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+73.4s WEIGHTS blue=100 green=0
+T+0074 total=32 fail=0 v[2.0.0@green]=24/0 v[1.0.0@blue]=8/0 weights=blue:100,green:0
+T+0075 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0076 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0077 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0078 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0079 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0080 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0081 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0082 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0083 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0084 total=32 fail=0 v[1.0.0@blue]=32/0 weights=blue:100,green:0
+T+0085 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+0086 total=40 fail=0 v[1.0.0@blue]=40/0 weights=blue:100,green:0
+T+86.6s WEIGHTS blue=80 green=20
+T+0087 total=40 fail=0 v[1.0.0@blue]=39/0 v[2.0.0@green]=1/0 weights=blue:80,green:20
+T+0088 total=40 fail=0 v[1.0.0@blue]=35/0 v[2.0.0@green]=5/0 weights=blue:80,green:20
+T+0089 total=40 fail=0 v[2.0.0@green]=9/0 v[1.0.0@blue]=31/0 weights=blue:80,green:20
+T+0090 total=40 fail=0 v[1.0.0@blue]=29/0 v[2.0.0@green]=11/0 weights=blue:80,green:20
+T+0091 total=40 fail=0 v[1.0.0@blue]=35/0 v[2.0.0@green]=5/0 weights=blue:80,green:20
+T+0092 total=32 fail=0 v[2.0.0@green]=6/0 v[1.0.0@blue]=26/0 weights=blue:80,green:20
+T+0093 total=40 fail=0 v[2.0.0@green]=6/0 v[1.0.0@blue]=34/0 weights=blue:80,green:20
+T+0094 total=40 fail=0 v[1.0.0@blue]=36/0 v[2.0.0@green]=4/0 weights=blue:80,green:20
+T+0095 total=40 fail=0 v[1.0.0@blue]=33/0 v[2.0.0@green]=7/0 weights=blue:80,green:20
+T+0096 total=40 fail=0 v[1.0.0@blue]=30/0 v[2.0.0@green]=10/0 weights=blue:80,green:20
+T+0097 total=40 fail=0 v[2.0.0@green]=9/0 v[1.0.0@blue]=31/0 weights=blue:80,green:20
+T+0098 total=40 fail=0 v[1.0.0@blue]=35/0 v[2.0.0@green]=5/0 weights=blue:80,green:20
+T+0099 total=40 fail=0 v[1.0.0@blue]=35/0 v[2.0.0@green]=5/0 weights=blue:80,green:20
+T+98.7s WEIGHTS blue=60 green=40
+T+0100 total=32 fail=0 v[1.0.0@blue]=16/0 v[2.0.0@green]=16/0 weights=blue:60,green:40
+T+0101 total=40 fail=0 v[2.0.0@green]=21/0 v[1.0.0@blue]=19/0 weights=blue:60,green:40
+T+0102 total=40 fail=0 v[1.0.0@blue]=25/0 v[2.0.0@green]=15/0 weights=blue:60,green:40
+T+0103 total=40 fail=0 v[2.0.0@green]=17/0 v[1.0.0@blue]=23/0 weights=blue:60,green:40
+T+0104 total=40 fail=0 v[1.0.0@blue]=22/0 v[2.0.0@green]=18/0 weights=blue:60,green:40
+T+0105 total=40 fail=0 v[1.0.0@blue]=26/0 v[2.0.0@green]=14/0 weights=blue:60,green:40
+T+0106 total=40 fail=0 v[2.0.0@green]=15/0 v[1.0.0@blue]=25/0 weights=blue:60,green:40
+T+0107 total=40 fail=0 v[2.0.0@green]=18/0 v[1.0.0@blue]=22/0 weights=blue:60,green:40
+T+0108 total=32 fail=0 v[2.0.0@green]=10/0 v[1.0.0@blue]=22/0 weights=blue:60,green:40
+T+0109 total=40 fail=0 v[1.0.0@blue]=24/0 v[2.0.0@green]=16/0 weights=blue:60,green:40
+T+0110 total=40 fail=0 v[2.0.0@green]=14/0 v[1.0.0@blue]=26/0 weights=blue:60,green:40
+T+0111 total=40 fail=0 v[2.0.0@green]=20/0 v[1.0.0@blue]=20/0 weights=blue:60,green:40
+T+111.4s WEIGHTS blue=0 green=100
+T+0112 total=40 fail=0 v[1.0.0@blue]=5/0 v[2.0.0@green]=35/0 weights=blue:0,green:100
+T+0113 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0114 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0115 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+115.4s WEIGHTS blue=20 green=80
+T+0116 total=40 fail=0 v[2.0.0@green]=32/0 v[2.0.1-bad@blue]=8/0 weights=blue:20,green:80
+T+116.4s FAIL error GET /links/h9sgzv6z -> 500 version=2.0.1-bad slot=blue
+T+0117 total=32 fail=1 v[2.0.1-bad@blue]=3/1 v[2.0.0@green]=29/0 weights=blue:20,green:80
+T+117.4s FAIL error GET /links/zt2c8fe6 -> 500 version=2.0.1-bad slot=blue
+T+117.4s FAIL error GET /links/yp5ivfqb -> 500 version=2.0.1-bad slot=blue
+T+117.7s FAIL error GET /links/uder7dkf -> 500 version=2.0.1-bad slot=blue
+T+0118 total=40 fail=3 v[2.0.0@green]=33/0 v[2.0.1-bad@blue]=7/3 weights=blue:20,green:80
+T+118.0s WEIGHTS blue=0 green=100
+T+0119 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0120 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0121 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0122 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0123 total=35 fail=0 v[2.0.0@green]=35/0 weights=blue:0,green:100
+T+0124 total=37 fail=0 v[2.0.0@green]=37/0 weights=blue:0,green:100
+T+0125 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0126 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0127 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0128 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0129 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0130 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0131 total=36 fail=0 v[2.0.0@green]=36/0 weights=blue:0,green:100
+T+0132 total=36 fail=0 v[2.0.0@green]=36/0 weights=blue:0,green:100
+T+0133 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+T+0134 total=40 fail=0 v[2.0.0@green]=40/0 weights=blue:0,green:100
+FINAL total=5216 ok=5212 error=4 network=0 contract=0 lost=0
+BY VERSION 1.0.0: 3334 answered, 0 failed | 2.0.0: 1864 answered, 0 failed | 2.0.1-bad: 18 answered, 4 failed
+RESULT: 4 failed requests. Judge the run with: npm run check -- log
