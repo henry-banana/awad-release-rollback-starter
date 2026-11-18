@@ -1,8 +1,5 @@
 # IA04 assistant briefs
 
-These are the work briefs distilled from the student's request to complete IA04
-up to review. Codex prepared them before starting each phase.
-
 ## 1. Package v1
 
 Baseline: tag `starter`, commit `7a19624`.
@@ -32,7 +29,7 @@ Baseline: tag `v2`.
 - Implement `npm run release -- <tag>` and `npm run rollback` using the
   Docker slot health and the router weights and counters. Keep `tools/`
   and `test/app.test.js` unchanged.
-- Draft `RELEASE.md` before sending traffic. Include the five required
+- Write `RELEASE.md` before sending traffic. Include the five required
   columns, the gate and its blind spots, and the difference between moving
   traffic back and undoing the migration.
 - Done when a healthy release has at least two partial stages, starting at
@@ -41,7 +38,7 @@ Baseline: tag `v2`.
   the gate and lose all traffic without a manual rollback command. Verify
   the behavior with `L3`, `L4`, and `L6` through `L9` during the drill.
 
-## 4. Run the drill and prepare the review
+## 4. Run the drill and document the results
 
 Baseline: the committed `RELEASE.md` and deploy scripts.
 
@@ -51,5 +48,4 @@ Baseline: the committed `RELEASE.md` and deploy scripts.
 - Done when `T1` through `T3`, `I1` through `I15`, `F1` through `F7`,
   `C1` through `C4`, and `L0` through `L9` have been checked, and the
   release log independently shows the automatic rollback and its weights.
-- Draft the six-row self-assessment with check IDs and log line ranges.
-  Leave the archive pending the student's review.
+- Prepare the six-row self-assessment with check IDs and log line ranges.

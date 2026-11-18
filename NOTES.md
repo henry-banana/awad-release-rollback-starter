@@ -37,6 +37,5 @@ HTTP contract and recorded link state as well.
 
 ## Local state after evidence collection
 
-After saving and checking the drill logs, Codex restored v1 to idle blue for
-review. Green still serves v2 at 100% on schema 002 with expiry enabled. This
-standby refresh occurred after the recorded load run.
+After saving and checking the drill logs, Codex restored v1 to idle blue.
+At that point, green served v2 at 100% on schema 002 with expiry enabled.

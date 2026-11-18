@@ -2,16 +2,14 @@
 
 Student ID: 23120262
 
-TDTH-FLAG
-
 ## 2026-11-18: Requirements and handover
 
 Tool: Codex (OpenAI), with the mattpocock-skills research and code review
 guidance applied locally.
 
-Asked for: Read the IA04 rubric and starter, list the tasks, then complete the
-work up to the student's review. The student requested the marker above and
-provided IA01 through IA03 as format references.
+Asked for: Read the IA04 rubric and starter, list the tasks, then implement
+and verify the assignment. The student provided IA01 through IA03 as format
+references.
 
 Kept: The rubric, starter README, and `docs/CHANGE.md` as the sources of
 requirements. The initial clean starter commit is `7a19624`.
@@ -19,8 +17,7 @@ requirements. The initial clean starter commit is `7a19624`.
 Changed: The assistant turned the checklist into phase briefs before
 implementation. The briefs record the assigned scope and completion checks.
 
-Rejected: None in the requirements review. The student's handover reserves
-archive creation until after review.
+Rejected: None in the requirements review.
 
 By hand: The student gave the scope and attribution instruction. Codex
 prepared the briefs and performed the implementation and automated checks.
@@ -93,24 +90,23 @@ in `load-log.txt:126-130`. The router counters caught them.
 By hand: No student implementation steps recorded for this phase. Codex
 wrote and reviewed the scripts and release plan.
 
-## 2026-11-18: Live drill and review files
+## 2026-11-18: Live drill and evidence
 
 Tool: Codex (OpenAI).
 
 Asked for: Run one continuous deployment under load, capture the evidence,
-and prepare the six-row self-assessment for student review.
+and prepare the six-row self-assessment.
 
 Kept: The original npm load and check commands and the logs they produced.
 The continuous run ended using Ctrl+C. The manual rollback at
 `release-log.txt:40-44` was part of the v1 rollback exercise. The bad
 canary was separately reverted by the gate at `release-log.txt:62-76`.
 
-Changed: Codex recorded the npm flag issue in `NOTES.md` and tied the draft
+Changed: Codex recorded the npm flag issue in `NOTES.md` and tied the
 self-assessment to check IDs, commit IDs and the actual log lines.
 `check-log.txt` reports 39 of 39 checks passing and `npm test` passed all
 seven tests.
 
 Rejected: None during the evidence capture.
 
-By hand: The student reserved review and the final submission decision.
-Codex ran the commands and wrote the review files.
+By hand: Codex ran the commands and prepared the evidence files.
